@@ -109,7 +109,7 @@ Following the instructions above, the filter should be changed according the the
 ```java
 // Create configuration object
 PXConfiguration pxConfiguration = new PXConfiguration.Builder()
-     .cookieKey(COOKIE_KEY)
+     .cookieKey(COOKIE_ENCRYPTION_KEY)
      .authToken(AUTH_TOKEN)
      .appId(APP_ID)
      .blockingScore(SCORE)
